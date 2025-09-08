@@ -1,0 +1,87 @@
+@use '../../styles/index';
+
+.test {
+  position: absolute;
+  top: 80px;
+  left: 2px;
+}
+
+.testSize {
+  //position: absolute;
+  //top: 80px;
+  //left: 2px;
+  width: 20px;
+  height: 20px;
+}
+
+.sidebar {
+  width: fit-content;
+  display: flex;
+  height: 100vh;
+  box-shadow: 4px 0 16px rgba(0, 0, 0, 0.08);
+  background: var(--color-white);
+}
+
+.sidebar__menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 6px;
+  background-color: var(--color-black-primary);
+  height: 100vh;
+}
+
+.sidebar__menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.sidebar__nav {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px 20px 24px;
+}
+
+.sidebar__nav-item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sidebar__nav-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sidebar__nav-title {
+  font-size: var(--font-size-m);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: 0.3px;
+}
+
+.sidebar__nav-subTitle {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-regular);
+  letter-spacing: 0.24px;
+}
+
+.sidebar__nav-divider {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.sidebar__nav-copyright {
+  font-weight: 400;
+  font-size: 11px;
+  letter-spacing: 0.24px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+

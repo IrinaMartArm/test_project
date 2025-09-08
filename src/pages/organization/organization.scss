@@ -1,0 +1,21 @@
+@use '../../styles/index';
+
+.main {
+  width: 100%;
+  padding: 40px 20px;
+}
+
+.content {
+  display: flex;
+  gap: 32px;
+  margin: 0 auto;
+
+  &-items {
+    width: 100%;
+    max-width: 640px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+  }
+}
